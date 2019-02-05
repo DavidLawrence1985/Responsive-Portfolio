@@ -170,14 +170,12 @@ textarea {
     bottom: 80px;
 }  
 
-#img1,
-#img2,
-#img4{
+
+.img1{
     float: left;
 }
 
-#img3,
-#img5 {
+.img2 {
     clear: both;
     float: left;
 }
@@ -259,7 +257,7 @@ footer {
         width: 100%;
     }
     header {
-        width: 100%;
+        width: 105%;
     }
 
     header .wrapper {
@@ -307,6 +305,10 @@ footer {
     position: absolute;
     text-align: center;
     width: 90.4%;
+    /*I am certain the way the width is set for the media querries is 
+    wrong/weird, but it did end up looking how I wanted for the specific
+    screen sized. I am looking foward to the solution. I have a feeling its 
+    the way the container for the image and text are set*/
     }
     
     footer {
